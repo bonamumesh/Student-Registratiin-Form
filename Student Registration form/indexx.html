@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student  Registration <Form></Form></h2>
+    <form action="#" method="post">
+        <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="gradution-degree">Gradution Degree</label>
+        <select name="gradution-degree" id="gradution-degree">
+            <option value="Btech">Btech</option>
+            <option value="bsa">BSA</option>
+            <option value="bsc">BSC</option>
+            <option value="biotech">Biotech</option>
+        </select>
+    </div>
+    <div class="form-group">
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="bloodgroup">Blood Group:</label>
+        <select name="bloodgroup" id="bloodgroup">
+            <option value="o+ve">o+ve</option>
+            <option value="a+ve">A+ve</option>
+            <option value="b+ve">B+ve</option>
+            <option value="ab+ve">AB+ve</option>
+            <option value="o-ve">o-ve</option>
+            <option value="a-ve">A-ve</option>
+            <option value="b-ve">B-ve</option>
+            <option value="ab-ve">AB-ve</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="name">Father's name</label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-group">
+        <label for="name">Mother's name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="Course-selection">Course Selection:</label>
+        <select name="Course-selection" id="Course-selection" required>
+            <option value="java fullsatck">Java FullStack</option>
+            <option value="python fullstack ">Python FullStack</option>
+            <option value="Java Testing">Java Testing</option>
+        </select>
+         </div>
+    <div class="form-group">
+        <label for="course-start">Course Start Date:</label>
+        <input type="date" id="course-start" name="course-start" required>
+
+    </div>
+    <div class="form-group">
+        <label for="course-end">Course End date:</label>
+        <input type="date" id="course-end" name="course-end">
+    </div>
+    <h4>Additinal Information</h4>
+    <div class="form-group">
+        <label for="areaofinterset">Area of Interest:</label>
+        <select name="areaofinterset" id="areaofinterset">
+            <option value="software engineer">Software Engineer</option>
+            <option value="software developer"> Software Developer</option>
+            <option value="Core side">Core side</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="hobbies">Hobbies</label>
+        <input type="text" name="hobbies" id="hobbies">
+    </div>
+    <button>Submit</button>
+    
+    </form>
+</body>
+</html>
